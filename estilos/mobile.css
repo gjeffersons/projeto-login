@@ -16,7 +16,6 @@ body{
     position: relative;
 }
 main{
-<<<<<<< HEAD:estilos/style.css
     position: absolute;
     top: 0;
     left: 0;
@@ -25,11 +24,6 @@ main{
     margin: auto;
 }
   
-=======
-   
-}
-       
->>>>>>> 49b5afef0200be678c7b8dfdae7248070b263c3e:estilos/mobile.css
 /*SECAO DE LOGIN*/
 section#login{
     
@@ -37,17 +31,6 @@ section#login{
     border-radius: 20px;
     width: 250px;
     text-align: center;
-<<<<<<< HEAD:estilos/style.css
-   
-   
-=======
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
->>>>>>> 49b5afef0200be678c7b8dfdae7248070b263c3e:estilos/mobile.css
     
 }
 /*IMAGEM*/
