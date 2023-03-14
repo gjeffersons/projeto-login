@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+       background-image:linear-gradient(#5f2c82,#49a09d) ;
+       background-repeat: no-repeat;
+       background-attachment:fixed ;
+    }
+    main{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform:translate(-50%,-50%);  
+    }
+    
+        
+
+  
+section#login{
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+ 
+}
+/*IMAGEM*/
+div#imagem{
+    background-image: url(../imagens/pexels-scott-webb-139198\ \(1\).jpg);
+    background-position: center center;
+   
+   
+    
+}
+/*FORMULARIO*/
+div#formulario{
+    background-color: rgb(255, 255, 255);   
+}
+div#formulario > h1{
+    text-align: center;
+   padding-top: 15px;
+   font-weight: bolder;
+}
+
+div#formulario > p{
+    padding: 10px;
+    font-size: 10pt;
+    text-align: left;
+    padding-right: 25px;
+    padding-bottom: 5px;
+   
+}
+
+form{
+    
+}
+
+/* BACKGORUND DA CAIXA*/
+.cxsdados{
+    display: flex;
+    background-color: #5f2c82;
+    margin: 0px 10px 5px  10px;
+    height: 40px;   
+    border-radius: 10px;
+    width: 95%;
+  
+}
+/* ICONES DAS CAIXAS */
+.cxsdados > label> img{
+    width: 28px;
+    color: white;
+    padding: 8px;
+}
+/* CAIXA DE DIGITACAO */
+.cxsinputs{
+    display:flex;
+    background-color:#94CFCD;
+    border-radius: 8px;
+    height: 36px; 
+    font-size: 0.95em;  
+    width: 92%;
+    justify-content: center;
+    align-items: center;
+  
+}
+/*Botao entrar*/
+ input#ientrar{
+    color: white;
+    background-color: #53aaa7;
+    height: 40px;  
+    width: 95%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+div#esquecis > a {
+    color:#2d6462 ;
+    text-decoration: none;
+
+}
+div#esquecis  {
+    text-align: center;
+    border: 1px solid #53aaa7;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 91%;
+}

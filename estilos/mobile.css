@@ -13,106 +13,42 @@
 }
 body{
     background-color:#5f2c82 ;
-    position: relative;
 }
-main{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
-  
+
+  #formulario{
+    padding-bottom: 20px;
+  }
 /*SECAO DE LOGIN*/
-section#login{
-    
-    box-shadow: 0px 0px 15px #2f164175;
-    border-radius: 20px;
-    width: 250px;
-    text-align: center;
-    
+section#login{ 
+    width: 250px;      
+    padding-bottom: 20px;
 }
 /*IMAGEM*/
 div#imagem{
-    background-image: url(../imagens/pexels-scott-webb-139198\ \(1\).jpg);
-    background-position: center center;
-    height: 210px;
-    text-align: center;
-    border-radius: 20px 20px 0px 0px;
+    height: 210px;   
+    border-radius: 20px 20px 0px 0px ;
 }
-
-/*FORMULARIO*/
 div#formulario{
-    background-color: white;
-    border-radius: 0px 0px 20px 20px;
-    padding-bottom: 30px;
+    border-radius: 0px 0px 20px 20px ;
+}
+/*Botao entrar*/
+input#ientrar{
+    width: 230px;
+    height: 40px;  
    
-}
-div#formulario > h1{
-    text-align: center;
-   padding-top: 10px;
-}
-
-div#formulario > p{
-    padding: 10px;
-    font-size: 10pt;
-    text-align: left;
-   
-}
-
-div#cxemail{
-
-}
-div#cxsenha{
- 
-
+    
 }
 /* BACKGORUND DA CAIXA*/
 .cxsdados{
-    display: flex;
-    background-color: #5f2c82;
-    margin: 0px 10px 5px  10px;
-    height: 40px;   
-    border-radius: 10px;
-    justify-items: center;
-    align-items: center;
-    
-}
-/* ICONES DAS CAIXAS */
-.cxsdados > label> img{
-    width: 28px;
-    color: white;
-    padding: 8px;
-}
-/* CAIXA DE DIGITACAO */
-.cxsinputs{
-    background-color:#94CFCD;
-    border-radius: 8px;
-    height: 36px; 
-    font-size: 10pt;  
-}
-/*Botao entrar*/
- input#ientrar{
-    color: white;
-    background-color: #53aaa7;
-    height: 40px;  
     width: 230px;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 5px;
-    
 }
+
 div#esquecis > a {
     color:#2d6462 ;
     text-decoration: none;
-    margin: auto;
 
 }
 div#esquecis  {
-
-    border: 1px solid #53aaa7;
-    margin: 0px 10px;
-    padding: 10px;
-    border-radius: 8px;
+    width: 210px;
+   
 }

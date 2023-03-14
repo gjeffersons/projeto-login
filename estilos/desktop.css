@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+section#login{   
+display: flex;
+flex-direction: row-reverse;
+font-size: 1.1em;
+box-shadow: -3px 03px 10px rgba(0, 0, 0, 0.329);
+}
+#formulario{
+    padding-bottom: 40px;
+}
+div#imagem{
+width: 480px;
+border-radius: 0px 20px 20px 0px ;
+height: 380x;
+}
+div#formulario{
+   width: 480px;
+    border-radius: 20px 0px 0px 20px ;
+}
+
+div#formulario >h1{
+    font-size: 1.8em;
+}
+div#formulario >p{
+    font-size: 0.95em;
+    padding: 20px;
+}
+
